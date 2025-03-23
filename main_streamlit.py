@@ -72,7 +72,6 @@ if st.button("Analyze Stock"):
             symbol = analysis['basic_info']['symbol']
             industry = analysis['basic_info']['industry']
 
-            #again handling NIFTY 50 separately
             if symbol == "NIFTY 50":
                 company_name = "NSE Indices"
                 industry = "Market Index"
@@ -82,7 +81,6 @@ if st.button("Analyze Stock"):
             Current Price: ₹{analysis['price_data']['current_price']:,.2f} ({analysis['performance']['daily_change']:+.2f}%)
             """)
 
-            # AI Summary section
             st.subheader("🤖 AI Summary")
 
             st.markdown("#### 📈 Key Stock Insights")
