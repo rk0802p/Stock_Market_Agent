@@ -5,11 +5,11 @@ import plotly.graph_objects as go
 import torch
 
 st.set_page_config(
-    page_title="Stock Market Agent",
+    page_title="Deep Research Agent",
     page_icon="📈",
     layout="wide"
 )
-st.title("📈 Stock Market Agent")
+st.title("📈 Deep Research Agent")
 
 @st.cache_resource
 def load_analyzer():
