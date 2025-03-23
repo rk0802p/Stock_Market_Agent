@@ -1,6 +1,6 @@
-# Stock Market Analysis Tool
+# Stock Market Analysis Agent
 
-A comprehensive stock market analysis tool that combines traditional technical analysis with AI-powered insights. The tool features a Streamlit web interface for interactive visualization and analysis.
+A comprehensive stock market agent that combines traditional technical analysis with AI-powered insights. The tool features a Streamlit web interface for interactive visualization and analysis.
 
 ## Features
 
