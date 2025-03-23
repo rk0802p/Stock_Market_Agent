@@ -40,16 +40,15 @@ else:
 stock_options = filtered_stocks['symbol'].tolist()
 
 def format_stock_display(symbol):
+    # handling NIFTY 50 separately
+    if symbol == "NIFTY 50":
+        return "NIFTY 50"
+
     stock_data = analyzer.stock_data[analyzer.stock_data['symbol'] == symbol]
     if stock_data.empty:
         return symbol
 
     company_name = stock_data['companyName'].iloc[0]
-
-    # There is no company name for NIFTY 50 so handling it separately
-    if symbol == "NIFTY 50":
-        return f"{symbol} - {company_name}"  
-
     if pd.notna(company_name):
         return f"{symbol} - {company_name}"
 
