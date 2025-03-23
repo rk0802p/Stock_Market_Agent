@@ -41,8 +41,8 @@ A comprehensive stock market analysis tool that combines traditional technical a
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/rk0802p/Stock_Market_Agent.git
+cd Stock_Market_Agent
 ```
 
 2. Install required packages:
@@ -120,14 +120,4 @@ The analysis provides:
 
 ## Note
 
-- The tool uses garbage collection to manage memory efficiently
 - Regular data updates are recommended for accurate analysis
-- The AI model requires internet connection for initial download
-
-## License
-
-[Add your license information here]
-
-## Contributing
-
-[Add contribution guidelines here]
