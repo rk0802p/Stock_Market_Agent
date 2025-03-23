@@ -1,6 +1,6 @@
 # Stock Market Analysis Tool
 
-A comprehensive stock market analysis tool that combines traditional technical analysis with AI-powered insights. The tool features a Streamlit web interface for interactive visualization and analysis of NIFTY 50 stocks.
+A comprehensive stock market analysis tool that combines traditional technical analysis with AI-powered insights. The tool features a Streamlit web interface for interactive visualization and analysis.
 
 ## Features
 
